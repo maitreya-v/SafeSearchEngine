@@ -14,7 +14,7 @@ console.log(response)
         const postObj={
             'query':text
         }
-       axios.post('https://efd8-136-232-1-174.ngrok-free.app/safesearch/',postObj).then((res)=>{
+       axios.post('https://django-cloudrun-awg4zxeuca-uc.a.run.app/safesearch/',postObj).then((res)=>{
         setResponse(res.data.results);
         console.log(res.data.results)
        })
